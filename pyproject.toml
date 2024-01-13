@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ZisaCMake"
+version = "0.0.1"
+authors = [
+  { name="Luc Grosheitz", email="luc.grosheintz@gmail.com" },
+]
+description = "Utilities for CMake"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/1uc/ZisaCMake"
+Issues = "https://github.com/1uc/ZisaCMake/issues"
